@@ -5,6 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/mfry90/ci-test?color=gree)
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/mfry90/ci-test/latest/main)
 ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/mfry90/ci-test/latest)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 # Continuous Integration (CI) configuration examples for  MATLAB<sup>&reg;</sup>
 
 Are you interested in automating your testing with CI?
