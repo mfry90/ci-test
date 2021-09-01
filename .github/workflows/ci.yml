@@ -41,5 +41,5 @@ jobs:
           command: addpath('tests'); run_tests
       - name: Upload coverage report
         uses: codecov/codecov-action@v1
-	with:
-	  file: coverage.xml
+        with:
+          file: coverage.xml
