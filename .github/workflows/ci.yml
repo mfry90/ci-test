@@ -29,13 +29,17 @@ jobs:
         uses: matlab-actions/setup-matlab@v0
 
       # Runs a set of commands using the runners shell
-      - name: Run all tests
-        uses: matlab-actions/run-tests@v0
-        with:
-          source-folder: code
+      #- name: Run all tests
+      #  uses: matlab-actions/run-tests@v0
+      #  with:
+      #    source-folder: code
 
       # As an alternative to run-tests, you can use run-command to execute a MATLAB script, function, or statement.
-      #- name: Run all tests
-      #  uses: matlab-actions/run-command@v0
-      #  with:
-      #    command: addpath('code'); results = runtests('IncludeSubfolders', true); assertSuccess(results);
+      - name: Run all tests
+        uses: matlab-actions/run-command@v0
+        with:
+          command: addpath('tests'); run_tests
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v1
+	with:
+	  file: coverage.xml

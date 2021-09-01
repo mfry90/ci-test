@@ -64,6 +64,10 @@ classdef TestExamples < matlab.unittest.TestCase
             % Verify that our function throws an error
             testCase.verifyError(@() dayofyear(dateStr),"MATLAB:datetime:ParseErr");
         end
+        
+        function testFail(testCase)
+            verifyTrue(testCase, false)
+        end
 
 %         function testAlternateDateFormat(testCase)
 %             % Create date of April 1st, 2021 in alternate date format
