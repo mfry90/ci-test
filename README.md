@@ -2,13 +2,11 @@
 |:---------------------------|:-----------------:|:----------------------------:|--------------------------:|
 | [![Build Status](https://dev.azure.com/iat-ci/ci-configuration-examples/_apis/build/status/mathworks.ci-configuration-examples)](https://dev.azure.com/iat-ci/ci-configuration-examples/_build) <br> ![Azure DevOps Coverage](https://img.shields.io/azure-devops/coverage/iat-ci/ci-configuration-examples/36) | [![CircleCI](https://circleci.com/gh/mathworks/ci-configuration-examples.svg?style=svg)](https://circleci.com/gh/mathworks/ci-configuration-examples) <br><br> | [![MATLAB](https://github.com/mfry90/ci-test/actions/workflows/ci.yml/badge.svg)](https://github.com/mfry90/ci-test/actions/workflows/ci.yml) <br><br> | [![Build Status](https://app.travis-ci.com/mathworks/ci-configuration-examples.svg)](https://app.travis-ci.com/mathworks/ci-configuration-examples) <br><br> |
 
-![GitHub](https://img.shields.io/github/license/mfry90/ci-test?color=gree)
-![GitHub /main commits since latest release](https://img.shields.io/github/commits-since/mfry90/ci-test/latest/main)
-![GitHub /* commits since tagged version](https://img.shields.io/github/commits-since/mfry90/ci-test/latest)
+![GitHub](https://img.shields.io/github/license/mfry90/ci-test?color=green)
+[![Tests](https://github.com/mfry90/ci-test/actions/workflows/ci.yml/badge.svg)](https://github.com/mfry90/ci-test/actions/workflows/ci.yml)
+![Coverage](https://img.shields.io/codecov/c/github/mfry90/ci-test)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green)
-[![Other](https://github.com/mfry90/ci-test/actions/workflows/ci.yml/badge.svg)](https://github.com/mfry90/ci-test/actions/workflows/ci.yml)
-![Codecov](https://img.shields.io/codecov/c/github/mfry90/ci-test)
-
+![GitHub commits since latest release (by date) for a branch](https://img.shields.io/github/commits-since/mfry90/ci-test/latest/develop) (on `develop` branch)
 # Continuous Integration (CI) configuration examples for  MATLAB<sup>&reg;</sup>
 
 Are you interested in automating your testing with CI?
@@ -295,3 +293,5 @@ script: matlab -batch "addpath('code'); results = runtests('IncludeSubfolders', 
 
 ## Contact Us
 If you have any questions or suggestions, please contact MathWorks at [continuous-integration@mathworks.com](mailto:continuous-integration@mathworks.com).
+![GitHub /main commits since latest release](https://img.shields.io/github/commits-since/mfry90/ci-test/latest/main)
+![GitHub /* commits since tagged version](https://img.shields.io/github/commits-since/mfry90/ci-test/latest)

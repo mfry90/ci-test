@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage branch-rate="NaN" branches-covered="NaN" branches-valid="NaN" complexity="NaN"
+          line-rate="0.8"
+          lines-covered="8"
+          lines-valid="10"
+          timestamp="1630530932.2708"
+          version="">
+   <sources>
+      <source>/home/je29215/ci-configuration-examples/code/</source>
+   </sources>
+   <packages>
+      <package branch-rate="NaN" complexity="NaN" line-rate="0.8" name="">
+         <classes>
+            <class branch-rate="NaN" complexity="NaN" filename="dayofyear.m" line-rate="0.8"
+                   name="dayofyear">
+               <methods/>
+               <lines>
+                  <line hits="16" number="17"/>
+                  <line hits="1" number="18"/>
+                  <line hits="15" number="22"/>
+                  <line hits="15" number="23"/>
+                  <line hits="0" number="24"/>
+                  <line hits="0" number="25"/>
+                  <line hits="14" number="29"/>
+                  <line hits="14" number="32"/>
+                  <line hits="1" number="34"/>
+                  <line hits="14" number="38"/>
+               </lines>
+            </class>
+         </classes>
+      </package>
+   </packages>
+</coverage>
