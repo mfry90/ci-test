@@ -16,8 +16,8 @@ runner.addPlugin(CodeCoveragePlugin.forFolder(top_path,...
 
 addpath(fullfile(top_path, 'code'))                                          
 result = runner.run(suite);
-num_failed = sum(horzcat(result.Failed));
-assertSuccess(result)
+dtime = datetime;
+save('test_results', {'result', 'dtime'})
 
 
 % %%
