@@ -37,9 +37,9 @@ end
 % Calculate day of year
 doy = sum(daysPerMonth(1:d.Month-1)) + d.Day;
 
-if false
-    'wont cover here'
-end
+% if false
+%     'wont cover here'
+% end
 
 
 end
