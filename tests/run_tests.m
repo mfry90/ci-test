@@ -16,9 +16,9 @@ runner.addPlugin(CodeCoveragePlugin.forFolder(top_path,...
 
 addpath(fullfile(top_path, 'code'))                                          
 result = runner.run(suite);
-% dtime = datetime;
-% save('test_results', 'result', 'dtime')
-assertSuccess(result)
+dtime = datetime;
+save('test_results', 'result', 'dtime')
+
 
 % %%
 % % Copyright 2021 The MathWorks, Inc.

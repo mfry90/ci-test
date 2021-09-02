@@ -30,7 +30,7 @@ jobs:
       # Run tests script
       - name: Run all tests
         uses: matlab-actions/run-command@v0
-        continue-on-error: true
+#        continue-on-error: true
         with:
           command: addpath('tests'); run_tests
 
@@ -41,7 +41,7 @@ jobs:
           file: coverage.xml
 
       # Throw error if tests failed
-#      - name: Check if tests failed
-#        uses: matlab-actions/run-command@v0
-#        with:
-#          command: load('test_results', 'result'); assertSuccess(result);
+      - name: Check if tests failed
+        uses: matlab-actions/run-command@v0
+        with:
+          command: load('test_results', 'result'); assertSuccess(result);
