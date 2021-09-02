@@ -6,7 +6,7 @@
 ![GitHub /main commits since latest release](https://img.shields.io/github/commits-since/mfry90/ci-test/latest/main)
 ![GitHub /* commits since tagged version](https://img.shields.io/github/commits-since/mfry90/ci-test/latest)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green)
-[![MATLAB](https://github.com/mfry90/ci-test/actions/workflows/ci.yml/badge.svg)](https://github.com/mfry90/ci-test/actions/workflows/ci.yml)
+[![Other](https://github.com/mfry90/ci-test/actions/workflows/ci.yml/badge.svg)](https://github.com/mfry90/ci-test/actions/workflows/ci.yml)
 ![Codecov](https://img.shields.io/codecov/c/github/mfry90/ci-test)
 
 # Continuous Integration (CI) configuration examples for  MATLAB<sup>&reg;</sup>
